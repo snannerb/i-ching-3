@@ -1,0 +1,61 @@
+/* Reset and Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #808080;
+  font-family: 'Press Start 2P', cursive;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Hexagram Display */
+#hexagram-container {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+#hexagram-container div {
+  margin: 5px 0;
+}
+
+/* Button Styling */
+#throw-coins {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+#throw-coins:hover {
+  background-color: #45a049;
+}
+
+/* Hexagram Info Styling */
+#hexagram-info {
+  margin-top: 20px;
+}
+
+h1, h2, p {
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  #hexagram-container {
+    font-size: 1.5rem;
+  }
+}
